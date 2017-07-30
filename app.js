@@ -11,10 +11,10 @@ storage.setItemSync('accounts',[{
 var accounts = storage.getItemSync('accounts');
 
 // push items to array
-accounts.push({
-    username:'Jen',
-    balance:100
-})
+// accounts.push({
+//     username:'Jen',
+//     balance:100
+// })
 
-storage.setItemSync('accounts',accounts)
+// storage.setItemSync('accounts',accounts)
 console.log(accounts);
