@@ -3,6 +3,10 @@ console.log("Starting Password manager");
 var storage = require('node-persist');
 storage.initSync();
 
-// storage.setItemSync('name','Prahalad');
-var name = storage.getItemSync('name');
-console.log('Saved Name is '+name);
+storage.setItemSync('accounts',[{
+    username: 'Prahalad',
+    balance: 0
+}]);
+
+var accounts = storage.getItemSync('accounts');
+console.log(accounts);
