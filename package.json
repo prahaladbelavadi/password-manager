@@ -11,5 +11,8 @@
     "manager"
   ],
   "author": "Prahalad Belavadi",
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "dependencies": {
+    "node-persist": "0.0.6"
+  }
 }
